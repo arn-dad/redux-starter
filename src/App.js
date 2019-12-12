@@ -1,4 +1,5 @@
 import React from 'react';
+import './redux/store/store';
 import './App.css';
 
 function App() {
