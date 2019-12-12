@@ -13,7 +13,6 @@ store.subscribe(() => {
 store.dispatch(createTodo({ id: 1, todo: 'learn JS' }))
 store.dispatch(createTodo({ id: 2, todo: 'learn react' }))
 
-store.dispatch(createTodo({ id: 1, todo: 'learn JS' }))
 store.dispatch(createEvent({ id: 1, event: 'JS conf Armenia' }))
 
 setTimeout(() => {
